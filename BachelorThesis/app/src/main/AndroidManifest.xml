@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Questions3Activity"></activity>
+        <activity android:name=".Questions6Activity" />
         <activity android:name=".Questions5Activity" />
         <activity android:name=".Questions4Activity" />
-        <activity android:name=".Questions3Activity" />
         <activity android:name=".InformationActivity" />
         <activity android:name=".MorningActivity" />
         <activity android:name=".TrainingActivity" />
@@ -28,15 +29,14 @@
             </intent-filter>
         </activity>
 
-
         <provider
-            android:authorities="com.example.alexruhl.bachelorthesis"
             android:name="androidx.core.content.FileProvider"
-            android:grantUriPermissions="true"
-            android:exported="false">
+            android:authorities="com.example.alexruhl.bachelorthesis"
+            android:exported="false"
+            android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/provider_paths"/>
+                android:resource="@xml/provider_paths" />
         </provider>
     </application>
 
