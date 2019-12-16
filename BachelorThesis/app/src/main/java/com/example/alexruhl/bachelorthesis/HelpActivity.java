@@ -15,7 +15,7 @@ public class HelpActivity extends AppCompatActivity {
     }
 
     public void goToNextPage(View view) {
-        Intent intent = new Intent(this, Questions1Activity.class);
+        Intent intent = new Intent(this, QuestionsAgeActivity.class);
         startActivity(intent);
     }
 }

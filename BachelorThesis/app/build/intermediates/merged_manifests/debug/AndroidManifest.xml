@@ -18,17 +18,20 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.alexruhl.bachelorthesis.Questions5Activity" />
-        <activity android:name="com.example.alexruhl.bachelorthesis.Questions4Activity" />
-        <activity android:name="com.example.alexruhl.bachelorthesis.Questions3Activity" />
+        <activity android:name="com.example.alexruhl.bachelorthesis.QuestionsPLZActivity" />
+        <activity android:name="com.example.alexruhl.bachelorthesis.QuestionsAgeActivity" />
+        <activity android:name="com.example.alexruhl.bachelorthesis.QuestionsSportProWocheActivity" />
+        <activity android:name="com.example.alexruhl.bachelorthesis.QuestionsZeitraumActivity" />
+        <activity android:name="com.example.alexruhl.bachelorthesis.QuestionsStrukturActivity" />
+        <activity android:name="com.example.alexruhl.bachelorthesis.QuestionsFesteZeitenActivity" />
         <activity android:name="com.example.alexruhl.bachelorthesis.InformationActivity" />
         <activity android:name="com.example.alexruhl.bachelorthesis.MorningActivity" />
         <activity android:name="com.example.alexruhl.bachelorthesis.TrainingActivity" />
         <activity android:name="com.example.alexruhl.bachelorthesis.FoodActivity" />
         <activity android:name="com.example.alexruhl.bachelorthesis.MainActivity" />
         <activity android:name="com.example.alexruhl.bachelorthesis.HelpActivity" />
-        <activity android:name="com.example.alexruhl.bachelorthesis.Questions2Activity" />
-        <activity android:name="com.example.alexruhl.bachelorthesis.Questions1Activity" />
+        <activity android:name="com.example.alexruhl.bachelorthesis.QuestionsRegelmaessigActivity" />
+        <activity android:name="com.example.alexruhl.bachelorthesis.QuestionsAnzahlSportartenActivity" />
         <activity android:name="com.example.alexruhl.bachelorthesis.StartActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

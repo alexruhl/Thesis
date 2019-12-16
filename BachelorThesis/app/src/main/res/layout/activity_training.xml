@@ -67,10 +67,11 @@
             android:id="@+id/radioButtonYes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
             android:layout_marginRight="32dp"
+            android:checked="true"
             android:text="@string/ja"
-            android:textSize="24sp"
-            android:layout_marginEnd="32dp" />
+            android:textSize="24sp" />
 
         <RadioButton
             android:id="@+id/radioButtonNo"

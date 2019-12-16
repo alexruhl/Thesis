@@ -9,18 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Questions3Activity"></activity>
-        <activity android:name=".Questions6Activity" />
-        <activity android:name=".Questions5Activity" />
-        <activity android:name=".Questions4Activity" />
+        <activity android:name=".QuestionsPLZActivity"></activity>
+        <activity android:name=".QuestionsAgeActivity" />
+        <activity android:name=".QuestionsSportProWocheActivity" />
+        <activity android:name=".QuestionsZeitraumActivity" />
+        <activity android:name=".QuestionsStrukturActivity" />
+        <activity android:name=".QuestionsFesteZeitenActivity" />
         <activity android:name=".InformationActivity" />
         <activity android:name=".MorningActivity" />
         <activity android:name=".TrainingActivity" />
         <activity android:name=".FoodActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".HelpActivity" />
-        <activity android:name=".Questions2Activity" />
-        <activity android:name=".Questions1Activity" />
+        <activity android:name=".QuestionsRegelmaessigActivity" />
+        <activity android:name=".QuestionsAnzahlSportartenActivity" />
         <activity android:name=".StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

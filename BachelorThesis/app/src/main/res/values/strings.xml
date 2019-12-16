@@ -38,4 +38,12 @@
     <string name="csv_hochladen">CSV hochladen</string>
     <string name="vielleicht">vielleicht</string>
     <string name="haben_sie_heute_vor_sport_nzu_machen">Haben Sie heute vor Sport  zu machen?</string>
+    <string name="wie_oft_gehen_sie_durchschnittlich_in_der_woche_zum_sport">Wie oft gehen Sie durchschnittlich in der Woche zum Sport?</string>
+    <string name="wie_alt_sind_sie">Wie alt sind Sie?</string>
+    <string name="alter">Alter</string>
+    <string name="plz">PLZ</string>
+    <string name="wie_regelm_ig_machen_sie_sport">Wie regelmäßig machen Sie Sport?</string>
+    <string name="sehr_regelm_ig">sehr regelmäßig</string>
+    <string name="wie_lautet_die_postleitzahl_f_r_den_ort_an_dem_sie_sich_die_meiste_zeit_befinden">Wie lautet die Postleitzahl für den Ort an dem Sie sich die meiste Zeit befinden?</string>
+    <string name="sehr_unregelm_ig">sehr unregelmäßig</string>
 </resources>

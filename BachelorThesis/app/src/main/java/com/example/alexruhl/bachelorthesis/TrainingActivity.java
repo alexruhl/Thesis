@@ -44,71 +44,82 @@ public class TrainingActivity extends AppCompatActivity {
     }
 
     public void goToNextPage(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
 
-        Date date = new Date();
-
-        //Datum
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd.MM.yyyy", Locale.GERMAN);
-        String datum = simpleDateFormat.format(date);
-        Log.i("datum", datum);
-
-        //Uhrzeit
-        simpleDateFormat = new SimpleDateFormat("HH:mm", Locale.GERMAN);
-        String time = simpleDateFormat.format(date);
-        Log.i("Uhrzeit", time);
-
-
-        //Input CSV
-
-        try {
-            FileInputStream fileInputStream = openFileInput("data.csv");
-            int n;
-
-            while ((n = fileInputStream.read()) != -1) {
-                csv = csv + (char) n;
-            }
-
-            fileInputStream.close();
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-
-        //Edit CSV
         TextView start = findViewById(R.id.etChooseTimeStart);
         TextView end = findViewById(R.id.etChooseTimeEnd);
         String startTime = start.getText().toString();
         String endTime = end.getText().toString();
 
-        String radioString = "";
-        RadioButton radioButtonYes = findViewById(R.id.radioButtonYes);
-        RadioButton radioButtonNo = findViewById(R.id.radioButtonNo);
-        if (radioButtonYes.isChecked()) {
-            radioString = "Geplannt";
-        } else if (radioButtonNo.isChecked()) {
-            radioString = "Nicht geplant";
+        if (startTime.length() == 0 || endTime.length() == 0) {
+            Toast.makeText(this, "Bitte Zeiten angeben", Toast.LENGTH_SHORT).show();
+        } else {
+
+
+            Intent intent = new Intent(this, MainActivity.class);
+            Date date = new Date();
+
+            //Datum
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd.MM.yyyy", Locale.GERMAN);
+            String datum = simpleDateFormat.format(date);
+            Log.i("datum", datum);
+
+            //Uhrzeit
+            simpleDateFormat = new SimpleDateFormat("HH:mm", Locale.GERMAN);
+            String time = simpleDateFormat.format(date);
+            Log.i("Uhrzeit", time);
+
+
+            //Input CSV
+
+            try {
+                FileInputStream fileInputStream = openFileInput("data.csv");
+                int n;
+
+                //Performance StringBuilder
+                StringBuilder stringBuilder = new StringBuilder();
+                stringBuilder.append(csv);
+                while ((n = fileInputStream.read()) != -1) {
+
+                    stringBuilder.append(n);
+                    //csv = csv + (char) n;
+                }
+
+                fileInputStream.close();
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+
+            //Edit CSV
+            String radioString = "";
+            RadioButton radioButtonYes = findViewById(R.id.radioButtonYes);
+            RadioButton radioButtonNo = findViewById(R.id.radioButtonNo);
+            if (radioButtonYes.isChecked()) {
+                radioString = "Geplannt";
+            } else if (radioButtonNo.isChecked()) {
+                radioString = "Nicht geplant";
+            }
+
+            //CSV New Line Edit here for Data Research
+            csv = csv + "\n" + datum + "," + time + "," + "Start:" + startTime + "," + "End:" + endTime + "," + radioString;
+
+
+            //Write csv
+
+            try {
+                FileOutputStream out = openFileOutput("data.csv", Context.MODE_PRIVATE);
+                out.write(csv.getBytes());
+                out.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+
+            }
+
+
+            Toast.makeText(this, "Sport hizugefügt", Toast.LENGTH_SHORT).show();
+            startActivity(intent);
         }
-
-        //CSV New Line Edit here for Data Research
-        csv = csv + "\n" + datum + "," + time + "," + "Start:" + startTime + "," + "End:" + endTime + "," + radioString;
-
-
-        //Write csv
-
-        try {
-            FileOutputStream out = openFileOutput("data.csv", Context.MODE_PRIVATE);
-            out.write(csv.getBytes());
-            out.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-
-        }
-
-
-        Toast.makeText(this, "Sport hizugefügt", Toast.LENGTH_SHORT).show();
-        startActivity(intent);
     }
 
     public void timePicker(final TextView chooseTime) {
@@ -135,4 +146,5 @@ public class TrainingActivity extends AppCompatActivity {
         });
 
     }
+
 }

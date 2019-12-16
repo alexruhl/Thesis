@@ -672,7 +672,9 @@ id activity_chooser_view_content
 id add
 id alertTitle
 id all
+id alter
 id always
+id anzahlProWoche
 id anzahlSportarten
 id async
 id barrier
@@ -684,6 +686,7 @@ id button2
 id button3
 id button4
 id button5
+id button6
 id buttonPanel
 id center
 id center_horizontal
@@ -754,6 +757,7 @@ id packed
 id parent
 id parentPanel
 id percent
+id plz
 id progress_circular
 id progress_horizontal
 id radio
@@ -826,6 +830,7 @@ id textView7
 id textView9
 id textViewGoodMorning
 id textViewSport
+id textViewSportProWoche
 id time
 id title
 id titleDividerNoCustom
@@ -876,11 +881,14 @@ layout activity_help
 layout activity_information
 layout activity_main
 layout activity_morning
-layout activity_questions1
-layout activity_questions2
-layout activity_questions3
-layout activity_questions4
-layout activity_questions5
+layout activity_questions_age
+layout activity_questions_anzahl_sportarten
+layout activity_questions_feste_zeiten
+layout activity_questions_plz
+layout activity_questions_regelmaessig
+layout activity_questions_sport_pro_woche
+layout activity_questions_struktur
+layout activity_questions_zeitraum
 layout activity_start
 layout activity_training
 layout notification_action
@@ -935,6 +943,7 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string abends
+string alter
 string anzahl
 string app_name
 string beantworten_sie_die_nachfolgenden_fragen_ausf_hrlich_diese_k_nnen_nur_einmal_beantwortet_und_nicht_mehr_bearbeitet_werden
@@ -958,9 +967,12 @@ string mittwoch
 string montag
 string morgens
 string nein
+string plz
 string samstag
 string search_menu_title
+string sehr_regelm_ig
 string sehr_strukturiert
+string sehr_unregelm_ig
 string sehr_unstrukturiert
 string sonntag
 string sport_hinzuf_gen
@@ -969,6 +981,10 @@ string status_bar_notification_info_overflow
 string vielleicht
 string wann_machst_du_in_der_regel_sport
 string weiter
+string wie_alt_sind_sie
+string wie_lautet_die_postleitzahl_f_r_den_ort_an_dem_sie_sich_die_meiste_zeit_befinden
+string wie_oft_gehen_sie_durchschnittlich_in_der_woche_zum_sport
+string wie_regelm_ig_machen_sie_sport
 string wie_strukturiert_w_rden_sie_ihren_tagesablauf_beschreiben
 string wie_viele_sportarten_machen_sie
 string wie_zufrieden_waren_sie_mit_dieser_mahlzeit
