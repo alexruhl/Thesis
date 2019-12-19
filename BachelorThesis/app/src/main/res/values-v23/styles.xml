@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyTimeStyle" parent="android:Widget.TextView">
+        <item name="android:colorPrimary">#FFF</item>
+        <item name="android:timePickerMode">spinner</item>
+        <item name="android:numbersTextColor">#FFF</item>
+        <item name="android:numbersInnerTextColor">#FFF</item>
+        <item name="android:numbersSelectorColor">#999</item>
+        <item name="android:numbersBackgroundColor">#000</item>
+        <!--  <item name="android:amPmTextColor">?android:attr/textColorSecondary</item> -->
+
+    </style>
+</resources>

@@ -3,6 +3,7 @@ package com.example.alexruhl.bachelorthesis;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.app.AlertDialog;
 import android.app.TimePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -58,12 +59,11 @@ public class QuestionsFesteZeitenActivity extends AppCompatActivity {
         }
 
 
-
         //Write Bundle
         String festeZeiten = timeToString();
         assert sharedData != null;
         sharedData.setFesteZeiten(festeZeiten);
-        intent.putExtra("sharedData",sharedData);
+        intent.putExtra("sharedData", sharedData);
         startActivity(intent);
     }
 
@@ -74,7 +74,7 @@ public class QuestionsFesteZeitenActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                timePickerDialog = new TimePickerDialog(QuestionsFesteZeitenActivity.this, new TimePickerDialog.OnTimeSetListener() {
+                timePickerDialog = new TimePickerDialog(QuestionsFesteZeitenActivity.this ,new TimePickerDialog.OnTimeSetListener() {
                     @SuppressLint("DefaultLocale")
                     @Override
                     public void onTimeSet(TimePicker timePicker, int hourOfDay, int minutes) {
@@ -83,6 +83,8 @@ public class QuestionsFesteZeitenActivity extends AppCompatActivity {
                     }
                 }, currentHour, currentMinute, true);
 
+
+               // timePickerDialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
                 timePickerDialog.show();
 
             }
@@ -92,8 +94,8 @@ public class QuestionsFesteZeitenActivity extends AppCompatActivity {
 
     }
 
-    public String timeToString(){
-        String string="";
+    public String timeToString() {
+        String string = "";
         string = string + "Mo:" + chooseTimeMo.getText().toString();
         string = string + "Di:" + chooseTimeDi.getText().toString();
         string = string + "Mi:" + chooseTimeMi.getText().toString();
@@ -101,7 +103,7 @@ public class QuestionsFesteZeitenActivity extends AppCompatActivity {
         string = string + "Fr:" + chooseTimeFr.getText().toString();
         string = string + "Sa:" + chooseTimeSa.getText().toString();
         string = string + "So:" + chooseTimeSo.getText().toString();
-        Log.i("festeZeiten",string);
+        Log.i("festeZeiten", string);
 
         return string;
     }

@@ -52,9 +52,11 @@ public class MorningActivity extends AppCompatActivity {
         try {
             FileInputStream fileInputStream = openFileInput("data.csv");
             int n;
-
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.append(csv);
             while ((n = fileInputStream.read()) != -1) {
-                csv = csv + (char) n;
+                stringBuilder.append(n);
+               // csv = csv + (char) n;
             }
 
             fileInputStream.close();
@@ -63,7 +65,6 @@ public class MorningActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        Log.i("Test", csv.substring(csv.length()-60));
 
         //Edit CSV
         RatingBar ratingBar = findViewById(R.id.ratingBarMorning);
@@ -96,7 +97,7 @@ public class MorningActivity extends AppCompatActivity {
         }
 
 
-        Toast.makeText(this,"Daten hizugefügt", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Daten hizugefügt", Toast.LENGTH_SHORT).show();
         startActivity(intent);
     }
 }

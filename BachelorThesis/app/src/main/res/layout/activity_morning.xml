@@ -13,6 +13,7 @@
         android:layout_marginBottom="16dp"
         android:onClick="goToNextPage"
         android:text="@string/fertig"
+        android:textColor="#FFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -22,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Guten Morgen,\nWie gut haben Sie geschlafen?"
+        android:text="@string/guten_morgen_nwie_gut_haben_sie_geschlafen"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

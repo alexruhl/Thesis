@@ -46,4 +46,7 @@
     <string name="sehr_regelm_ig">sehr regelmäßig</string>
     <string name="wie_lautet_die_postleitzahl_f_r_den_ort_an_dem_sie_sich_die_meiste_zeit_befinden">Wie lautet die Postleitzahl für den Ort an dem Sie sich die meiste Zeit befinden?</string>
     <string name="sehr_unregelm_ig">sehr unregelmäßig</string>
+    <string name="bachelorarbeit_von_alexander_ruhl">Bachelorarbeit von Alexander Ruhl</string>
+    <string name="guten_morgen_nwie_gut_haben_sie_geschlafen">Guten Morgen, Wie gut haben Sie geschlafen?</string>
+    <string name="app_starten">App starten</string>
 </resources>

@@ -13,6 +13,7 @@
         android:layout_marginBottom="16dp"
         android:onClick="goToNextPage"
         android:text="@string/weiter"
+        android:textColor="#FFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -28,6 +29,7 @@
         android:layout_marginRight="16dp"
         android:text="@string/wie_lautet_die_postleitzahl_f_r_den_ort_an_dem_sie_sich_die_meiste_zeit_befinden"
         android:textSize="24sp"
+        app:backgroundTint="#000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

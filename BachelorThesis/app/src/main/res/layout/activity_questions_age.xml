@@ -14,6 +14,7 @@
         android:layout_marginBottom="16dp"
         android:onClick="goToNextPage"
         android:text="@string/weiter"
+        android:textColor="#FFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -38,15 +39,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:ems="3"
-        android:hint="@string/alter"
         android:digits="0123456789"
-        android:imeOptions="actionDone"
+        android:ems="3"
         android:gravity="center"
+        android:hint="@string/alter"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
         android:inputType="numberDecimal"
         android:textSize="20sp"
+        app:backgroundTint="#000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
