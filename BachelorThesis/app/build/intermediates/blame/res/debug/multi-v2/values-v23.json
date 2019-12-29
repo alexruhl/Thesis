@@ -14,28 +14,23 @@
                         "endOffsets": "582"
                     },
                     "to": {
-                        "startLines": "37",
+                        "startLines": "48",
                         "startColumns": "4",
-                        "startOffsets": "2354",
-                        "endLines": "46",
+                        "startOffsets": "3407",
+                        "endLines": "57",
                         "endColumns": "12",
-                        "endOffsets": "2880"
+                        "endOffsets": "3933"
                     }
                 },
                 {
-                    "source": "/Users/alex/.gradle/caches/transforms-2/files-2.1/697f71c0c12135256cbfe98df498a7e4/appcompat-1.0.2/res/values-v23/values-v23.xml",
+                    "source": "/Users/alex/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/values-v23/values-v23.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1131,1787,1914,2019,2134,2241",
-                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
-                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
-                        "endOffsets": "185,320,395,482,1126,1782,1909,2014,2129,2236,2349"
+                        "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1371,2267,2386,2513,2618,2842,2957,3064,3177",
+                        "endLines": "2,3,4,5,19,33,34,35,36,40,41,42,43,47",
+                        "endColumns": "134,134,74,86,12,12,118,126,104,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1366,2262,2381,2508,2613,2837,2952,3059,3172,3402"
                     }
                 }
             ]

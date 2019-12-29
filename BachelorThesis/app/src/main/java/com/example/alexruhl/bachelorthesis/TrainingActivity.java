@@ -80,10 +80,10 @@ public class TrainingActivity extends AppCompatActivity {
                 stringBuilder.append(csv);
                 while ((n = fileInputStream.read()) != -1) {
 
-                    stringBuilder.append(n);
+                    stringBuilder.append((char)n);
                     //csv = csv + (char) n;
                 }
-
+                csv = stringBuilder.toString();
                 fileInputStream.close();
 
             } catch (IOException e) {
@@ -102,7 +102,9 @@ public class TrainingActivity extends AppCompatActivity {
             }
 
             //CSV New Line Edit here for Data Research
-            csv = csv + "\n" + datum + "," + time + "," + "Start:" + startTime + "," + "End:" + endTime + "," + radioString;
+
+            String add = "\n" + datum + "," + time + "," + "Start:" + startTime + "," + "End:" + endTime + "," + radioString;
+            csv = csv + add;
 
 
             //Write csv

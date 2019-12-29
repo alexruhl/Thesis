@@ -7,7 +7,7 @@
 7    <uses-sdk
 8        android:minSdkVersion="15"
 8-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml
-9        android:targetSdkVersion="28" />
+9        android:targetSdkVersion="29" />
 9-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
@@ -19,7 +19,7 @@
 14        android:allowBackup="false"
 14-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:11:9-36
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.0.1] /Users/alex/.gradle/caches/transforms-2/files-2.1/8f8ab13dc8f4e84e14a8bb3d9ac92bc4/core-1.0.1/AndroidManifest.xml:22:18-86
+15-->[androidx.core:core:1.1.0] /Users/alex/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:18-86
 16        android:debuggable="true"
 17        android:icon="@mipmap/ic_launcher"
 17-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:12:9-43

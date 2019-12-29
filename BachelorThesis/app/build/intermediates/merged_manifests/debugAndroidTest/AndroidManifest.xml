@@ -4,7 +4,7 @@
 
     <uses-sdk
         android:minSdkVersion="15"
-        android:targetSdkVersion="28" />
+        android:targetSdkVersion="29" />
 
     <instrumentation
         android:name="androidx.test.runner.AndroidJUnitRunner"
@@ -20,21 +20,21 @@
 
         <activity
             android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
-            android:theme="@style/InstrumentationActivityInvokerBootstrapActivityTheme" >
+            android:theme="@android:style/Theme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
             android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
-            android:theme="@style/InstrumentationActivityInvokerEmptyActivityTheme" >
+            android:theme="@android:style/Theme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
             android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
-            android:theme="@style/InstrumentationActivityInvokerFloatingActivityTheme" >
+            android:theme="@android:style/Theme.Dialog" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>

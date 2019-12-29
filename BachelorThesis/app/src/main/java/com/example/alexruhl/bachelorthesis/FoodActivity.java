@@ -53,10 +53,14 @@ public class FoodActivity extends AppCompatActivity {
             FileInputStream fileInputStream = openFileInput("data.csv");
             int n;
 
+            //Performance StringBuilder
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.append(csv);
             while ((n = fileInputStream.read()) != -1) {
-                csv = csv + (char) n;
+                stringBuilder.append((char) n);
+                //csv = csv + (char) n;
             }
-
+            csv = stringBuilder.toString();
             fileInputStream.close();
 
         } catch (IOException e) {
@@ -68,7 +72,9 @@ public class FoodActivity extends AppCompatActivity {
         float rating = ratingBar.getRating();
 
         //CSV New Line Edit here for Data Research
-        csv = csv + "\n" + datum + "," + time + "," + "Essen:" + rating;
+
+        String add = "\n" + datum + "," + time + "," + "Essen:" + rating;
+        csv = csv + add;
 
 
         //Write csv
