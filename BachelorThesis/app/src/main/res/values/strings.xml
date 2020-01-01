@@ -5,9 +5,9 @@
     <string name="sport_hinzuf_gen">Sport hinzufügen</string>
     <string name="help">help</string>
     <string name="information_text">Allgemeine Information, wie man die App benutzt:
-        \n\nMorgens: Bewerten Sie jeden Morgen 30min nach dem Aufstehen Ihren Schlaf. Haben Sie genug geschlafen?
+        \n\nMorgens: Bewerten Sie jeden Morgen nach dem Aufstehen Ihren Schlaf. Haben Sie genug geschlafen?
         \n\nEssen: Bewerten Sie nach jeder Mahlzeit Ihr Essen. Wie fühlen Sie sich nach der Mahlzeit?
-        \n\nSport: Tragen Sie nach jeder Sporteinheit, die jeweilige Dauer, Intensität, Uhrzeit ein. Beantworten Sie zusätlich, ob die Sporteinheit spontan oder geplant stattgefunden hat. </string>
+        \n\nSport: Tragen Sie nach jeder Sporteinheit, die Uhrzeiten ein. Beantworten Sie zusätlich, ob die Sporteinheit spontan oder geplant stattgefunden hat. </string>
     <string name="weiter">Weiter</string>
     <string name="fertig">fertig</string>
     <string name="gibt_es_feste_zeiten_zu_denen_sie_sport_machen_wenn_ja_welche">Gibt es feste Zeiten zu denen Sie Sport machen, wenn ja welche?</string>
@@ -19,7 +19,7 @@
     <string name="samstag">Samstag</string>
     <string name="mittwoch">Mittwoch</string>
     <string name="dienstag">Dienstag</string>
-    <string name="beantworten_sie_die_nachfolgenden_fragen_ausf_hrlich_diese_k_nnen_nur_einmal_beantwortet_und_nicht_mehr_bearbeitet_werden">Beantworten Sie die nachfolgenden Fragen ausführlich. Diese können nur einmal beantwortet und nicht mehr bearbeitet werden</string>
+    <string name="beantworten_sie_die_nachfolgenden_fragen_ausf_hrlich_diese_k_nnen_nur_einmal_beantwortet_und_nicht_mehr_bearbeitet_werden">Beantworten Sie die nachfolgenden Fragen ausführlich. Diese können nur einmal beantwortet und nicht mehr bearbeitet werden.</string>
     <string name="wie_zufrieden_waren_sie_mit_dieser_mahlzeit">Wie zufrieden waren Sie mit dieser Mahlzeit?</string>
     <string name="start">Start:</string>
     <string name="ende">Ende:</string>
@@ -34,19 +34,19 @@
     <string name="abends">Abends</string>
     <string name="mittags">Mittags</string>
     <string name="morgens">Morgens</string>
-    <string name="wann_machst_du_in_der_regel_sport">Wann machst du in der Regel Sport?</string>
+    <string name="wann_machst_du_in_der_regel_sport">Wann machst du in der Regel Sport? \n(Mehrere auswählbar)</string>
     <string name="csv_hochladen">CSV hochladen</string>
     <string name="vielleicht">vielleicht</string>
     <string name="haben_sie_heute_vor_sport_nzu_machen">Haben Sie heute vor Sport  zu machen?</string>
-    <string name="wie_oft_gehen_sie_durchschnittlich_in_der_woche_zum_sport">Wie oft gehen Sie durchschnittlich in der Woche zum Sport?</string>
+    <string name="wie_oft_gehen_sie_durchschnittlich_in_der_woche_zum_sport">Wie oft gehen Sie durchschnittlich in der Woche zum Sport? \n(Jeden 2. Tag = 3.5)</string>
     <string name="wie_alt_sind_sie">Wie alt sind Sie?</string>
     <string name="alter">Alter</string>
     <string name="plz">PLZ</string>
     <string name="wie_regelm_ig_machen_sie_sport">Wie regelmäßig machen Sie Sport?</string>
     <string name="sehr_regelm_ig">sehr regelmäßig</string>
-    <string name="wie_lautet_die_postleitzahl_f_r_den_ort_an_dem_sie_sich_die_meiste_zeit_befinden">Wie lautet die Postleitzahl für den Ort an dem Sie sich die meiste Zeit befinden?</string>
+    <string name="wie_lautet_die_postleitzahl_f_r_den_ort_an_dem_sie_sich_die_meiste_zeit_befinden">Wie lautet die Postleitzahl Ihres Wohnortes?</string>
     <string name="sehr_unregelm_ig">sehr unregelmäßig</string>
     <string name="bachelorarbeit_von_alexander_ruhl">Bachelorarbeit von Alexander Ruhl</string>
-    <string name="guten_morgen_nwie_gut_haben_sie_geschlafen">Guten Morgen, Wie gut haben Sie geschlafen?</string>
+    <string name="guten_morgen_nwie_gut_haben_sie_geschlafen">Guten Morgen, wie gut haben Sie geschlafen?</string>
     <string name="app_starten">App starten</string>
 </resources>
