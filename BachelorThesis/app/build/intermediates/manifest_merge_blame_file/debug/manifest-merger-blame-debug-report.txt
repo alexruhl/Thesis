@@ -32,130 +32,129 @@
 20-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:15:9-54
 21        android:supportsRtl="true"
 21-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:16:9-35
-22        android:testOnly="true"
-23        android:theme="@style/AppTheme"
-23-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:18:9-40
-24        android:usesCleartextTraffic="true" >
-24-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:17:9-44
-25        <activity
-25-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:20:9-22:52
-26            android:name="com.example.alexruhl.bachelorthesis.QuestionsPLZActivity"
-26-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:21:13-49
-27            android:screenOrientation="portrait" />
-27-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:22:13-49
-28        <activity
-28-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:23:9-25:52
-29            android:name="com.example.alexruhl.bachelorthesis.QuestionsAgeActivity"
-29-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:24:13-49
-30            android:screenOrientation="portrait" />
-30-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:25:13-49
-31        <activity
-31-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:26:9-28:52
-32            android:name="com.example.alexruhl.bachelorthesis.QuestionsSportProWocheActivity"
-32-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:27:13-59
-33            android:screenOrientation="portrait" />
-33-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:28:13-49
-34        <activity
-34-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:29:9-31:52
-35            android:name="com.example.alexruhl.bachelorthesis.QuestionsZeitraumActivity"
-35-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:30:13-54
-36            android:screenOrientation="portrait" />
-36-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:31:13-49
-37        <activity
-37-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:32:9-34:52
-38            android:name="com.example.alexruhl.bachelorthesis.QuestionsStrukturActivity"
-38-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:33:13-54
-39            android:screenOrientation="portrait" />
-39-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:34:13-49
-40        <activity
-40-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:35:9-37:52
-41            android:name="com.example.alexruhl.bachelorthesis.QuestionsFesteZeitenActivity"
-41-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:36:13-57
-42            android:screenOrientation="portrait" />
-42-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:37:13-49
-43        <activity
-43-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:38:9-40:52
-44            android:name="com.example.alexruhl.bachelorthesis.InformationActivity"
-44-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:39:13-48
-45            android:screenOrientation="portrait" />
-45-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:40:13-49
-46        <activity
-46-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:41:9-43:52
-47            android:name="com.example.alexruhl.bachelorthesis.MorningActivity"
-47-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:42:13-44
-48            android:screenOrientation="portrait" />
-48-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:43:13-49
-49        <activity
-49-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:44:9-46:52
-50            android:name="com.example.alexruhl.bachelorthesis.TrainingActivity"
-50-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:45:13-45
-51            android:screenOrientation="portrait" />
-51-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:46:13-49
-52        <activity
-52-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:47:9-49:52
-53            android:name="com.example.alexruhl.bachelorthesis.FoodActivity"
-53-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:48:13-41
-54            android:screenOrientation="portrait" />
-54-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:49:13-49
-55        <activity
-55-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:50:9-52:52
-56            android:name="com.example.alexruhl.bachelorthesis.MainActivity"
-56-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:51:13-41
-57            android:screenOrientation="portrait" />
-57-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:52:13-49
-58        <activity
-58-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:53:9-55:52
-59            android:name="com.example.alexruhl.bachelorthesis.HelpActivity"
-59-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:54:13-41
-60            android:screenOrientation="portrait" />
-60-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:55:13-49
-61        <activity
-61-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:56:9-58:52
-62            android:name="com.example.alexruhl.bachelorthesis.QuestionsRegelmaessigActivity"
-62-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:57:13-58
-63            android:screenOrientation="portrait" />
-63-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:58:13-49
-64        <activity
-64-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:59:9-61:52
-65            android:name="com.example.alexruhl.bachelorthesis.QuestionsAnzahlSportartenActivity"
-65-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:60:13-62
-66            android:screenOrientation="portrait" />
-66-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:61:13-49
-67        <activity
-67-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:62:9-70:20
-68            android:name="com.example.alexruhl.bachelorthesis.StartActivity"
-68-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:63:13-42
-69            android:screenOrientation="portrait" >
-69-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:64:13-49
-70            <intent-filter>
-70-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:65:13-69:29
-71                <action android:name="android.intent.action.MAIN" />
-71-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:66:17-69
-71-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:66:25-66
-72
-73                <category android:name="android.intent.category.LAUNCHER" />
-73-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:68:17-77
-73-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:68:27-74
-74            </intent-filter>
-75        </activity>
-76
-77        <provider
-77-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:72:9-80:20
-78            android:name="androidx.core.content.FileProvider"
-78-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:73:13-62
-79            android:authorities="com.example.alexruhl.bachelorthesis"
-79-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:74:13-70
-80            android:exported="false"
-80-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:75:13-37
-81            android:grantUriPermissions="true" >
-81-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:76:13-47
-82            <meta-data
-82-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:77:13-79:58
-83                android:name="android.support.FILE_PROVIDER_PATHS"
-83-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:78:17-67
-84                android:resource="@xml/provider_paths" />
-84-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:79:17-55
-85        </provider>
-86    </application>
-87
-88</manifest>
+22        android:theme="@style/AppTheme"
+22-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:18:9-40
+23        android:usesCleartextTraffic="true" >
+23-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:17:9-44
+24        <activity
+24-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:20:9-22:52
+25            android:name="com.example.alexruhl.bachelorthesis.QuestionsPLZActivity"
+25-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:21:13-49
+26            android:screenOrientation="portrait" />
+26-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:22:13-49
+27        <activity
+27-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:23:9-25:52
+28            android:name="com.example.alexruhl.bachelorthesis.QuestionsAgeActivity"
+28-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:24:13-49
+29            android:screenOrientation="portrait" />
+29-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:25:13-49
+30        <activity
+30-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:26:9-28:52
+31            android:name="com.example.alexruhl.bachelorthesis.QuestionsSportProWocheActivity"
+31-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:27:13-59
+32            android:screenOrientation="portrait" />
+32-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:28:13-49
+33        <activity
+33-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:29:9-31:52
+34            android:name="com.example.alexruhl.bachelorthesis.QuestionsZeitraumActivity"
+34-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:30:13-54
+35            android:screenOrientation="portrait" />
+35-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:31:13-49
+36        <activity
+36-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:32:9-34:52
+37            android:name="com.example.alexruhl.bachelorthesis.QuestionsStrukturActivity"
+37-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:33:13-54
+38            android:screenOrientation="portrait" />
+38-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:34:13-49
+39        <activity
+39-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:35:9-37:52
+40            android:name="com.example.alexruhl.bachelorthesis.QuestionsFesteZeitenActivity"
+40-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:36:13-57
+41            android:screenOrientation="portrait" />
+41-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:37:13-49
+42        <activity
+42-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:38:9-40:52
+43            android:name="com.example.alexruhl.bachelorthesis.InformationActivity"
+43-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:39:13-48
+44            android:screenOrientation="portrait" />
+44-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:40:13-49
+45        <activity
+45-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:41:9-43:52
+46            android:name="com.example.alexruhl.bachelorthesis.MorningActivity"
+46-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:42:13-44
+47            android:screenOrientation="portrait" />
+47-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:43:13-49
+48        <activity
+48-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:44:9-46:52
+49            android:name="com.example.alexruhl.bachelorthesis.TrainingActivity"
+49-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:45:13-45
+50            android:screenOrientation="portrait" />
+50-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:46:13-49
+51        <activity
+51-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:47:9-49:52
+52            android:name="com.example.alexruhl.bachelorthesis.FoodActivity"
+52-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:48:13-41
+53            android:screenOrientation="portrait" />
+53-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:49:13-49
+54        <activity
+54-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:50:9-52:52
+55            android:name="com.example.alexruhl.bachelorthesis.MainActivity"
+55-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:51:13-41
+56            android:screenOrientation="portrait" />
+56-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:52:13-49
+57        <activity
+57-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:53:9-55:52
+58            android:name="com.example.alexruhl.bachelorthesis.HelpActivity"
+58-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:54:13-41
+59            android:screenOrientation="portrait" />
+59-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:55:13-49
+60        <activity
+60-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:56:9-58:52
+61            android:name="com.example.alexruhl.bachelorthesis.QuestionsRegelmaessigActivity"
+61-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:57:13-58
+62            android:screenOrientation="portrait" />
+62-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:58:13-49
+63        <activity
+63-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:59:9-61:52
+64            android:name="com.example.alexruhl.bachelorthesis.QuestionsAnzahlSportartenActivity"
+64-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:60:13-62
+65            android:screenOrientation="portrait" />
+65-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:61:13-49
+66        <activity
+66-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:62:9-70:20
+67            android:name="com.example.alexruhl.bachelorthesis.StartActivity"
+67-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:63:13-42
+68            android:screenOrientation="portrait" >
+68-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:64:13-49
+69            <intent-filter>
+69-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:65:13-69:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:66:17-69
+70-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:66:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:68:17-77
+72-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:68:27-74
+73            </intent-filter>
+74        </activity>
+75
+76        <provider
+76-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:72:9-80:20
+77            android:name="androidx.core.content.FileProvider"
+77-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:73:13-62
+78            android:authorities="com.example.alexruhl.bachelorthesis"
+78-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:74:13-70
+79            android:exported="false"
+79-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:75:13-37
+80            android:grantUriPermissions="true" >
+80-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:76:13-47
+81            <meta-data
+81-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:77:13-79:58
+82                android:name="android.support.FILE_PROVIDER_PATHS"
+82-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:78:17-67
+83                android:resource="@xml/provider_paths" />
+83-->/Users/alex/Bachelorarbeit/BachelorThesis/app/src/main/AndroidManifest.xml:79:17-55
+84        </provider>
+85    </application>
+86
+87</manifest>
