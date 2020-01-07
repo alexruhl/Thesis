@@ -74,7 +74,6 @@ public class FoodActivity extends AppCompatActivity {
     private void initLabel() {
         String myFormat = "dd.MM.yyyy";
         SimpleDateFormat sdf = new SimpleDateFormat(myFormat, Locale.GERMAN);
-
         textView.setHint(sdf.format(myCalendar.getTime()));
     }
 
@@ -122,7 +121,7 @@ public class FoodActivity extends AppCompatActivity {
 
         //Datum
         String datum2 = textView.getText().toString();
-        if (datum.length() == 0) {
+        if (datum2.length() == 0) {
             datum2 = textView.getHint().toString();
         }
 

@@ -17,7 +17,7 @@ public class Decrypt {
         //Read File
         try {
             //Navigate to File Here
-            FileReader fileReader = new FileReader("/Users/alex/Downloads/enc.csv");
+            FileReader fileReader = new FileReader("/Users/alex/Downloads/data2.csv");
             int n;
             //Performance StringBuilder
             StringBuilder stringBuilder = new StringBuilder();

@@ -1,4 +1,4 @@
-#Tue Jan 07 19:44:34 CET 2020
+#Tue Jan 07 19:55:47 CET 2020
 base.0=/Users/alex/Bachelorarbeit/BachelorThesis/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
