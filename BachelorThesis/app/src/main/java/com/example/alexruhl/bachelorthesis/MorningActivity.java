@@ -148,7 +148,7 @@ public class MorningActivity extends AppCompatActivity {
 
 
         protected String doInBackground(String... args) {
-            return HttpRequest.excuteGet("http://api.openweathermap.org/data/2.5/forecast?zip=" + PLZ + ",de&units=metric&lang=de&appid=" + API);
+            return HttpRequest.excuteGet("http://api.openweathermap.org/data/2.5/forecast?zip=" + PLZ + ",de&units=metric&lang=en&appid=" + API);
         }
 
         @Override

@@ -33,6 +33,18 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <ImageView
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#E3000D"
+            android:contentDescription="@string/deletebutton"
+            android:onClick="delete"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/button5"
+            app:srcCompat="@android:drawable/ic_menu_delete" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>

@@ -3,12 +3,14 @@ package com.example.alexruhl.bachelorthesis;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.DatePicker;
 import android.widget.RadioButton;
 import android.widget.RatingBar;
 import android.widget.TextView;
@@ -19,6 +21,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
@@ -30,6 +33,8 @@ public class TrainingActivity extends AppCompatActivity {
     int currentHour;
     int currentMinute;
     public String csv = "";
+    TextView textView;
+    Calendar myCalendar;
 
 
     @Override
@@ -41,6 +46,47 @@ public class TrainingActivity extends AppCompatActivity {
         timePicker(chooseTimeStart);
         chooseTimeEnd = findViewById(R.id.etChooseTimeEnd);
         timePicker(chooseTimeEnd);
+
+        myCalendar = Calendar.getInstance();
+
+        textView = findViewById(R.id.trainingDate);
+        initLabel();
+        final DatePickerDialog.OnDateSetListener date = new DatePickerDialog.OnDateSetListener() {
+
+            @Override
+            public void onDateSet(DatePicker view, int year, int monthOfYear,
+                                  int dayOfMonth) {
+                myCalendar.set(Calendar.YEAR, year);
+                myCalendar.set(Calendar.MONTH, monthOfYear);
+                myCalendar.set(Calendar.DAY_OF_MONTH, dayOfMonth);
+                updateLabel();
+            }
+
+        };
+
+        textView.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                new DatePickerDialog(TrainingActivity.this, date, myCalendar
+                        .get(Calendar.YEAR), myCalendar.get(Calendar.MONTH),
+                        myCalendar.get(Calendar.DAY_OF_MONTH)).show();
+            }
+        });
+    }
+
+    private void updateLabel() {
+        String myFormat = "dd.MM.yyyy";
+        SimpleDateFormat sdf = new SimpleDateFormat(myFormat, Locale.GERMAN);
+
+        textView.setText(sdf.format(myCalendar.getTime()));
+    }
+
+    private void initLabel() {
+        String myFormat = "dd.MM.yyyy";
+        SimpleDateFormat sdf = new SimpleDateFormat(myFormat, Locale.GERMAN);
+
+        textView.setHint(sdf.format(myCalendar.getTime()));
     }
 
     public void goToNextPage(View view) {
@@ -59,14 +105,19 @@ public class TrainingActivity extends AppCompatActivity {
             Date date = new Date();
 
             //Datum
-            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd.MM.yyyy", Locale.GERMAN);
+            String datum = textView.getText().toString();
+            if (datum.length() == 0) {
+                datum = textView.getHint().toString();
+            }
+
+           /*SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd.MM.yyyy", Locale.GERMAN);
             String datum = simpleDateFormat.format(date);
             Log.i("datum", datum);
 
             //Uhrzeit
             simpleDateFormat = new SimpleDateFormat("HH:mm", Locale.GERMAN);
             String time = simpleDateFormat.format(date);
-            Log.i("Uhrzeit", time);
+            Log.i("Uhrzeit", time); */
 
 
             //Input CSV
@@ -80,7 +131,7 @@ public class TrainingActivity extends AppCompatActivity {
                 stringBuilder.append(csv);
                 while ((n = fileInputStream.read()) != -1) {
 
-                    stringBuilder.append((char)n);
+                    stringBuilder.append((char) n);
                     //csv = csv + (char) n;
                 }
                 csv = stringBuilder.toString();
@@ -103,7 +154,7 @@ public class TrainingActivity extends AppCompatActivity {
 
             //CSV New Line Edit here for Data Research
 
-            String add = "\n" + datum + "," + time + "," + "Start:" + startTime + "," + "End:" + endTime + "," + radioString;
+            String add = "\nSport:" + datum + "," + "Start:" + startTime + "," + "End:" + endTime + "," + radioString;
             csv = csv + add;
 
 

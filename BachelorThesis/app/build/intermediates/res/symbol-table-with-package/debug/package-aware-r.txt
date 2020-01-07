@@ -767,6 +767,7 @@ id custom
 id customPanel
 id decor_content_parent
 id default_activity_button
+id deleteButton
 id dialog_button
 id dimensions
 id direct
@@ -784,6 +785,7 @@ id etChooseTimeSo
 id etChooseTimeStart
 id expand_activities_button
 id expanded_menu
+id foodDate
 id forever
 id gone
 id group_divider
@@ -887,12 +889,14 @@ id textView14
 id textView15
 id textView16
 id textView17
+id textView18
 id textView2
 id textView3
 id textView4
 id textView5
 id textView6
 id textView7
+id textView8
 id textView9
 id textViewGoodMorning
 id textViewSport
@@ -903,6 +907,7 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id trainingDate
 id unchecked
 id uniform
 id up
@@ -978,6 +983,7 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
+string _01_01_2020
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -1013,6 +1019,8 @@ string app_starten
 string bachelorarbeit_von_alexander_ruhl
 string beantworten_sie_die_nachfolgenden_fragen_ausf_hrlich_diese_k_nnen_nur_einmal_beantwortet_und_nicht_mehr_bearbeitet_werden
 string csv_hochladen
+string datum
+string deletebutton
 string dienstag
 string donnerstag
 string ende

@@ -49,4 +49,7 @@
     <string name="bachelorarbeit_von_alexander_ruhl">Bachelorarbeit von Alexander Ruhl</string>
     <string name="guten_morgen_nwie_gut_haben_sie_geschlafen">Guten Morgen, wie gut haben Sie geschlafen?</string>
     <string name="app_starten">App starten</string>
+    <string name="deletebutton">deleteButton</string>
+    <string name="_01_01_2020">01.01.2020</string>
+    <string name="datum">Datum:</string>
 </resources>

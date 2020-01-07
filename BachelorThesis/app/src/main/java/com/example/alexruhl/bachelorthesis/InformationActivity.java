@@ -1,10 +1,12 @@
 package com.example.alexruhl.bachelorthesis;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.FileProvider;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -28,6 +30,44 @@ public class InformationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_information);
+    }
+
+
+    public void delete(View view){
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        final Context context = this;
+
+        builder.setTitle("Alle Daten Löschen?");
+        builder.setMessage("Bitte nur ausführen, wenn Sie explizit darum gebeten werden.");
+
+
+        View.OnClickListener dialog;
+        builder.setPositiveButton("abbrechen", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                //Do nothing
+                // dialog.dismiss();
+            }
+        });
+
+        builder.setNegativeButton("LÖSCHEN", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                //Save CSV
+                try {
+                    String csv = "";
+                    FileOutputStream out = openFileOutput("data.csv", Context.MODE_PRIVATE);
+                    out.write(csv.getBytes());
+                    out.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+
+                }
+            }
+        });
+        AlertDialog alertDialog = builder.create();
+        alertDialog.show();
+
     }
 
     public void export(View view) {

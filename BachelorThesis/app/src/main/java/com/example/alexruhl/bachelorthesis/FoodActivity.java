@@ -2,11 +2,14 @@ package com.example.alexruhl.bachelorthesis;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
+import android.app.DatePickerDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.DatePicker;
 import android.widget.RadioButton;
 import android.widget.RatingBar;
 import android.widget.TextView;
@@ -16,6 +19,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
@@ -23,12 +27,57 @@ public class FoodActivity extends AppCompatActivity {
 
     public String csv = "";
 
+    TextView textView;
+    Calendar myCalendar;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food);
+
+        myCalendar = Calendar.getInstance();
+
+        textView = findViewById(R.id.foodDate);
+        initLabel();
+        final DatePickerDialog.OnDateSetListener date = new DatePickerDialog.OnDateSetListener() {
+
+            @Override
+            public void onDateSet(DatePicker view, int year, int monthOfYear,
+                                  int dayOfMonth) {
+                myCalendar.set(Calendar.YEAR, year);
+                myCalendar.set(Calendar.MONTH, monthOfYear);
+                myCalendar.set(Calendar.DAY_OF_MONTH, dayOfMonth);
+                updateLabel();
+            }
+
+        };
+
+        textView.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                new DatePickerDialog(FoodActivity.this, date, myCalendar
+                        .get(Calendar.YEAR), myCalendar.get(Calendar.MONTH),
+                        myCalendar.get(Calendar.DAY_OF_MONTH)).show();
+            }
+        });
     }
+
+    private void updateLabel() {
+        String myFormat = "dd.MM.yyyy";
+        SimpleDateFormat sdf = new SimpleDateFormat(myFormat, Locale.GERMAN);
+
+        textView.setText(sdf.format(myCalendar.getTime()));
+    }
+
+    private void initLabel() {
+        String myFormat = "dd.MM.yyyy";
+        SimpleDateFormat sdf = new SimpleDateFormat(myFormat, Locale.GERMAN);
+
+        textView.setHint(sdf.format(myCalendar.getTime()));
+    }
+
 
     public void goToNextPage(View view) {
         Intent intent = new Intent(this, MainActivity.class);
@@ -71,9 +120,15 @@ public class FoodActivity extends AppCompatActivity {
         RatingBar ratingBar = findViewById(R.id.ratingBarFood);
         float rating = ratingBar.getRating();
 
+        //Datum
+        String datum2 = textView.getText().toString();
+        if (datum.length() == 0) {
+            datum2 = textView.getHint().toString();
+        }
+
         //CSV New Line Edit here for Data Research
 
-        String add = "\n" + datum + "," + time + "," + "Essen:" + rating;
+        String add = "\nDatum:" + datum2 + ",Eingetragen:" + datum + "," + time + "," + "Essen:" + rating;
         csv = csv + add;
 
 
