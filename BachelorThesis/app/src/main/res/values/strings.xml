@@ -3,13 +3,13 @@
     <string name="guten_morgen">Guten Morgen</string>
     <string name="mahlzeit_hinzuf_gen">Mahlzeit hinzufügen</string>
     <string name="sport_hinzuf_gen">Sport hinzufügen</string>
-    <string name="help">help</string>
+    <string name="help">Help</string>
     <string name="information_text">Allgemeine Information, zur Nutzung der App:
         \n\nMorgens: Bewerten Sie jeden Morgen nach dem Aufstehen Ihren Schlaf. Haben Sie genug geschlafen?
         \n\nEssen: Bewerten Sie nach jeder Mahlzeit Ihr Essen. Wie fühlen Sie sich nach der Mahlzeit?
         \n\nSport: Tragen Sie nach jeder Sporteinheit, die Uhrzeiten ein. Beantworten Sie zusätzlich, ob die Sporteinheit spontan oder geplant stattgefunden hat. </string>
     <string name="weiter">Weiter</string>
-    <string name="fertig">fertig</string>
+    <string name="fertig">Fertig</string>
     <string name="gibt_es_feste_zeiten_zu_denen_sie_sport_machen_wenn_ja_welche">Gibt es feste Zeiten zu denen Sie Sport machen, wenn ja welche?</string>
     <string name="donnerstag">Donnerstag</string>
     <string name="sonntag">Sonntag</string>
@@ -34,11 +34,11 @@
     <string name="abends">Abends</string>
     <string name="mittags">Mittags</string>
     <string name="morgens">Morgens</string>
-    <string name="wann_machst_du_in_der_regel_sport">Wann machst du in der Regel Sport? \n(Mehrere auswählbar)</string>
+    <string name="wann_machst_du_in_der_regel_sport">Wann machen Sie in der Regel Sport? \n(Mehrere auswählbar)</string>
     <string name="csv_hochladen">CSV hochladen</string>
-    <string name="vielleicht">vielleicht</string>
+    <string name="vielleicht">Vielleicht</string>
     <string name="haben_sie_heute_vor_sport_nzu_machen">Haben Sie heute vor Sport  zu machen?</string>
-    <string name="wie_oft_gehen_sie_durchschnittlich_in_der_woche_zum_sport">Wie oft gehen Sie durchschnittlich in der Woche zum Sport? \n(Jeden 2. Tag = 3.5)</string>
+    <string name="wie_oft_gehen_sie_durchschnittlich_in_der_woche_zum_sport">Wie oft machen Sie durchschnittlich in der Woche Sport? (Jeden 2. Tag = 3.5)</string>
     <string name="wie_alt_sind_sie">Wie alt sind Sie?</string>
     <string name="alter">Alter</string>
     <string name="plz">PLZ</string>

@@ -22,46 +22,46 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.example.alexruhl.bachelorthesis.QuestionsPLZActivity"
+            android:name="com.example.alexruhl.bachelorthesis.AskCatalog.PostcodeActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.alexruhl.bachelorthesis.QuestionsAgeActivity"
+            android:name="com.example.alexruhl.bachelorthesis.AskCatalog.AgeActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.alexruhl.bachelorthesis.QuestionsSportProWocheActivity"
+            android:name="com.example.alexruhl.bachelorthesis.AskCatalog.SportPerWeekActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.alexruhl.bachelorthesis.QuestionsZeitraumActivity"
+            android:name="com.example.alexruhl.bachelorthesis.AskCatalog.DaytimeActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.alexruhl.bachelorthesis.QuestionsStrukturActivity"
+            android:name="com.example.alexruhl.bachelorthesis.AskCatalog.StructureActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.alexruhl.bachelorthesis.QuestionsFesteZeitenActivity"
+            android:name="com.example.alexruhl.bachelorthesis.AskCatalog.FixedTimesActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.alexruhl.bachelorthesis.InformationActivity"
+            android:name="com.example.alexruhl.bachelorthesis.MainMenu.HelpAndUploadActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.alexruhl.bachelorthesis.MorningActivity"
+            android:name="com.example.alexruhl.bachelorthesis.MainMenu.MorningActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.alexruhl.bachelorthesis.TrainingActivity"
+            android:name="com.example.alexruhl.bachelorthesis.MainMenu.SportActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.alexruhl.bachelorthesis.FoodActivity"
+            android:name="com.example.alexruhl.bachelorthesis.MainMenu.MealActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.alexruhl.bachelorthesis.MainActivity"
+            android:name="com.example.alexruhl.bachelorthesis.MainMenu.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.alexruhl.bachelorthesis.HelpActivity"
+            android:name="com.example.alexruhl.bachelorthesis.AskCatalog.InstructionActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.alexruhl.bachelorthesis.QuestionsRegelmaessigActivity"
+            android:name="com.example.alexruhl.bachelorthesis.AskCatalog.RegularityActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.alexruhl.bachelorthesis.QuestionsAnzahlSportartenActivity"
+            android:name="com.example.alexruhl.bachelorthesis.AskCatalog.NumberSportsActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.example.alexruhl.bachelorthesis.StartActivity"

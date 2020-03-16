@@ -18,46 +18,46 @@
         android:theme="@style/AppTheme"
         tools:targetApi="m">
         <activity
-            android:name=".QuestionsPLZActivity"
+            android:name=".askCatalog.PostcodeActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".QuestionsAgeActivity"
+            android:name=".askCatalog.AgeActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".QuestionsSportProWocheActivity"
+            android:name=".askCatalog.SportPerWeekActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".QuestionsZeitraumActivity"
+            android:name=".askCatalog.DaytimeActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".QuestionsStrukturActivity"
+            android:name=".askCatalog.StructureActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".QuestionsFesteZeitenActivity"
+            android:name=".askCatalog.FixedTimesActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".InformationActivity"
+            android:name=".mainMenu.HelpAndUploadActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MorningActivity"
+            android:name=".mainMenu.MorningActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".TrainingActivity"
+            android:name=".mainMenu.SportActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".FoodActivity"
+            android:name=".mainMenu.MealActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name=".mainMenu.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".HelpActivity"
+            android:name=".askCatalog.InstructionActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".QuestionsRegelmaessigActivity"
+            android:name=".askCatalog.RegularityActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".QuestionsAnzahlSportartenActivity"
+            android:name=".askCatalog.NumberSportsActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".StartActivity"
@@ -69,6 +69,7 @@
             </intent-filter>
         </activity>
 
+
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="com.example.alexruhl.bachelorthesis"
@@ -78,6 +79,9 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/provider_paths" />
         </provider>
+
+
+
     </application>
 
 </manifest>

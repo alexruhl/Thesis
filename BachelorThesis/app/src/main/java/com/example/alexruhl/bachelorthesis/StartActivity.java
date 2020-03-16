@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.alexruhl.bachelorthesis.askCatalog.InstructionActivity;
+import com.example.alexruhl.bachelorthesis.mainMenu.MainActivity;
+
 import java.io.File;
 
 public class StartActivity extends AppCompatActivity {
@@ -26,7 +29,7 @@ public class StartActivity extends AppCompatActivity {
             startActivity(intent);
 
         } else {
-            Intent intent = new Intent(this, HelpActivity.class);
+            Intent intent = new Intent(this, InstructionActivity.class);
             startActivity(intent);
         }
     }

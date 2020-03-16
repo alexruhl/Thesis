@@ -36,8 +36,9 @@ public class Decrypt {
 
         //Write File
 
-        try {
+        try {    //Navigate to Output Path here
             FileWriter out = new FileWriter("/Users/alex/Downloads/dec.csv");
+            //For Debugging
             //out.write(encrypt(str, "Bbj@.tpKHQ>dm8dc"));
             out.write(decrypt(str, "Bbj@.tpKHQ>dm8dc"));
             out.close();
